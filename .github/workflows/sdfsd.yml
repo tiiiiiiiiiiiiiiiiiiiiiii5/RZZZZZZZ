@@ -29,10 +29,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run install stuff
-        run: pip install requests-cache && pip install pycryptodome && pip install requests && python hanazakari_rokugen.py
+        run: pip install requests-cache && pip install pycryptodome && pip install requests && python hanazakari_yakumo.py
         
       - name: Run install stuff 2
-        run: python hanazakari_rokugen.py
+        run: python hanazakari_yakumo.py
 
       - name: Run install stuff 2
         run: echo choo
